@@ -1,4 +1,4 @@
-class Circle implements Shape{
+class Circle extends Shape{
     public String getName(){
         return "Circle";
     }

@@ -1,4 +1,4 @@
-public class Quad implements Shape{
+public class Quad extends Shape{
     public String getName(){
         return "Quad";
     }

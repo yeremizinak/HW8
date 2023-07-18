@@ -1,3 +1,3 @@
-public interface Shape {
-    String getName();
+public abstract class Shape {
+    public abstract String getName();
 }

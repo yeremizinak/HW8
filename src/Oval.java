@@ -1,4 +1,4 @@
-public class Oval implements Shape{
+public class Oval extends Shape{
     public String getName(){
         return "Oval";
     }
