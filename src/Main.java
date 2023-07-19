@@ -1,9 +1,10 @@
-import javax.crypto.spec.PSource;
-
 public class Main {
-    public static void main(String[] args){
-        System.out.print("Enter the shape: ");
-        CheckShape checkShape = new CheckShape();
-        System.out.println("The shape's name is " + checkShape.getShapeName());
+    public static void main(String[] args) {
+
+        PrintShape.printShape(new Circle());
+        PrintShape.printShape(new Triangle());
+        PrintShape.printShape(new Quad());
+        PrintShape.printShape(new Rhombus());
+        PrintShape.printShape(new Oval());
     }
 }
